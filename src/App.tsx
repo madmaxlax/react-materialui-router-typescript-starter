@@ -1,4 +1,4 @@
-import { Box, Container, Link, Typography } from '@material-ui/core';
+import { Box, Button, Container, Link, Typography } from '@material-ui/core';
 import React from 'react';
 import ProTip from './ProTip';
 
@@ -22,6 +22,7 @@ export default function App() {
         <Typography variant="h4" component="h1" gutterBottom>
           Create React App v4-beta example with TypeScript
         </Typography>
+        <Button>regular</Button>
         <ProTip />
         <Copyright />
       </Box>
