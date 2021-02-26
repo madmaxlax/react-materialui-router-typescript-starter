@@ -13,7 +13,7 @@ ReactDOM.render(
   <ThemeProvider theme={theme}>
     {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
     <CssBaseline />
-    <Router basename="/">
+    <Router basename={process.env.BASE_URL || '/'}>
       <ScrollToTop />
       <Routes />
     </Router>

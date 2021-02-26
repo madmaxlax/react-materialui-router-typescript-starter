@@ -1,4 +1,4 @@
-# Create React App example with TypeScript
+# Create React App Starter with Router, Material UI, 
 
 ## How to use
 
