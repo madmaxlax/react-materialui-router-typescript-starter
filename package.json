@@ -1,57 +1,62 @@
 {
-    "name": "typescript-material-ui",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "@emotion/react": "latest",
-        "@emotion/styled": "latest",
-        "@material-ui/core": "next",
-        "@types/react": "latest",
-        "@types/react-dom": "latest",
-        "react": "latest",
-        "react-dom": "latest",
-        "react-scripts": "latest",
-        "typescript": "latest"
-    },
-    "scripts": {
-        "clean": "rm -rf node_modules && rm -rf yarn.lock",
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
-    },
-    "devDependencies": {
-        "babel-eslint": "latest",
-        "eslint": "latest",
-        "@typescript-eslint/parser": "latest",
-        "@typescript-eslint/eslint-plugin": "latest",
-        "husky": "latest",
-        "eslint-config-prettier": "latest",
-        "eslint-plugin-prettier": "latest",
-        "lint-staged": "latest",
-        "prettier": "latest"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "*.{js,ts,tsx}": [
-            "eslint --fix"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+  "name": "typescript-material-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "next",
+    "@material-ui/icons": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest",
+    "clsx": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules && rm -rf yarn.lock",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+  },
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "eslint": "latest",
+    "clsx": "latest",
+    "@typescript-eslint/parser": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "husky": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "lint-staged": "latest",
+    "prettier": "latest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
