@@ -26,14 +26,14 @@
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
   },
   "devDependencies": {
-    "babel-eslint": "latest",
-    "eslint": "latest",
-    "clsx": "latest",
-    "@typescript-eslint/parser": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
-    "husky": "latest",
+    "@typescript-eslint/parser": "latest",
+    "babel-eslint": "latest",
+    "clsx": "latest",
+    "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-prettier": "latest",
+    "husky": "latest",
     "lint-staged": "latest",
     "prettier": "latest"
   },
