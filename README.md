@@ -38,7 +38,8 @@ I often used a template like https://github.com/creativetimofficial/material-das
 
 This example demonstrates how you can use [Create React App](https://github.com/facebookincubator/create-react-app) with Material UI and [TypeScript](https://github.com/Microsoft/TypeScript): https://material-ui.com/guides/typescript/
 
-##Structure 
+## Structure 
+
  - [/public](https://github.com/madmaxlax/react-materialui-router-typescript-starter/tree/main/public)
     - This is a create-react-app feature, raw files that will be served as-is, not involved in the compiling process at all, such as index.html and favicon.ico
  - [/Assets](https://github.com/madmaxlax/react-materialui-router-typescript-starter/tree/main/src/assets)
