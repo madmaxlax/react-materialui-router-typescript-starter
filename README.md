@@ -54,3 +54,7 @@ This example demonstrates how you can use [Create React App](https://github.com/
     - Where your various routes or different whole pages life. Each folder can contain the page content as well as any components that are unique to that page and wouldn't be shared across to the whole app (and moved to the /components folder)
 - [/utils](https://github.com/madmaxlax/react-materialui-router-typescript-starter/tree/main/src/utils)
     - Holding place for typescript models or other files / functions / utilities
+- [/routes.tsx](https://github.com/madmaxlax/react-materialui-router-typescript-starter/blob/main/src/Routes.tsx)
+    - List of routes/ references to the various pages
+- [/theme.tsx](https://github.com/madmaxlax/react-materialui-router-typescript-starter/blob/main/src/theme.tsx)
+    - Starter for custom theming 
