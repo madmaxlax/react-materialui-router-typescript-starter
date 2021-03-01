@@ -58,3 +58,16 @@ This example demonstrates how you can use [Create React App](https://github.com/
     - List of routes/ references to the various pages
 - [/theme.tsx](https://github.com/madmaxlax/react-materialui-router-typescript-starter/blob/main/src/theme.tsx)
     - Starter for custom theming 
+
+## *optional* Docker Container 
+
+a [Dockerfile](https://github.com/madmaxlax/react-materialui-router-typescript-starter/blob/main/Dockerfile) is included if you optionally want to run this as a container. 
+Commands:
+
+ - Build the container, then run it: 
+    - feel free to change the name and tag to anything instead of material-ui-starter, but be consistent
+
+```
+docker build -t material-ui-starter .
+docker run --name material-ui-starter -p 3003:3003 material-ui-starter
+```
