@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 const Main = (props: ClassNameChildrenProps) => {
   const { className, children, ...rest } = props;
   const classes = useStyles();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const params = useParams() as any;
   console.log(params);
 

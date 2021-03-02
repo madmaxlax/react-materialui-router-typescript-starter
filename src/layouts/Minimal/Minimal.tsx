@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 }));
 
 const Minimal = (props: LayoutProps) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { children, layoutprops } = props;
 
   const classes = useStyles();

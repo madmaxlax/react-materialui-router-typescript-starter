@@ -12,6 +12,7 @@ const isInternalURL = (to: string) => {
   }
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const Link = <D extends React.ElementType = LinkTypeMap['defaultComponent'], P = Record<string, unknown>>(
   // trying to fix this type is needlessly difficult
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

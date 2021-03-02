@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Link } from '../../components';
 import { CustomTheme } from '../../theme';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const useStyles = makeStyles((theme: CustomTheme) => ({
   root: {},
 }));

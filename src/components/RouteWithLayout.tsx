@@ -3,7 +3,9 @@ import { Route, RouteComponentProps, RouteProps } from 'react-router-dom';
 
 export interface RouteWithLayoutProps extends RouteProps {
   layout: ElementType;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   layoutprops?: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   component: React.ComponentType<RouteComponentProps<any>> | React.ComponentType<any>;
 }
 
