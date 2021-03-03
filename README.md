@@ -13,6 +13,11 @@ This repo contains the starter setup that I always spend way too much time setti
 - Router (with a couple sample pages) https://reactrouter.com/web/api/BrowserRouter
 - Material UI https://next.material-ui.com/ (I used the 'next' version to access the v5 version, which should be out in the near future (as of 2021))
 
+**Live Demo** 
+Using [Github Actions](https://github.com/madmaxlax/react-materialui-router-typescript-starter/blob/main/.github/workflows/deploy-to-gh-pages.yml) we deploy to the free static hosting Github Pages
+https://madmaxlax.github.io/react-materialui-router-typescript-starter/ 
+
+
 
 ## How to use
 
