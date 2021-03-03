@@ -27,4 +27,4 @@ jobs:
     - run: yarn
     - run: yarn add gh-pages --dev
     - run: yarn build
-    - run: yarn gh-pages -d ./dist/
+    - run: yarn gh-pages -d ./build/
