@@ -26,5 +26,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: yarn
     - run: yarn add gh-pages --dev
+    - run: git config user.email "actions@github.com"
+    - run: git config user.name "GithubActions"
     - run: yarn build
     - run: yarn gh-pages -d ./build/
