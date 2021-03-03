@@ -2,6 +2,7 @@
   "name": "typescript-material-ui",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/react-materialui-router-typescript-starter/"
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
