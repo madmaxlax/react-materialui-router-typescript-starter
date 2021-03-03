@@ -1,5 +1,7 @@
 # Create React App Starter with Router, Material UI, 
 
+[![Node.js CI](https://github.com/madmaxlax/react-materialui-router-typescript-starter/actions/workflows/deploy-to-gh-pages.yml/badge.svg)](https://github.com/madmaxlax/react-materialui-router-typescript-starter/actions/workflows/deploy-to-gh-pages.yml)
+
 ## About:
 
 This repo contains the starter setup that I always spend way too much time setting up and gathering:
