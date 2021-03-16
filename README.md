@@ -31,6 +31,10 @@ yarn install
 yarn start
 ```
 
+This uses Prettier and ESLint, which are two extensions in VScode that help with auto-formatting
+ - ESlint https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+ - Prettier https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
 
 **Note:**
 For all packages in package.json, I used `"latest"` as the version. 
