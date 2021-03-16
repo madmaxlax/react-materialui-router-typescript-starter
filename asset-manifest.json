@@ -5,15 +5,15 @@
     "main.js.map": "/react-materialui-router-typescript-starter/static/js/main.669e104f.chunk.js.map",
     "runtime-main.js": "/react-materialui-router-typescript-starter/static/js/runtime-main.d60893c9.js",
     "runtime-main.js.map": "/react-materialui-router-typescript-starter/static/js/runtime-main.d60893c9.js.map",
-    "static/js/2.f5d556f2.chunk.js": "/react-materialui-router-typescript-starter/static/js/2.f5d556f2.chunk.js",
-    "static/js/2.f5d556f2.chunk.js.map": "/react-materialui-router-typescript-starter/static/js/2.f5d556f2.chunk.js.map",
+    "static/js/2.a3621eaf.chunk.js": "/react-materialui-router-typescript-starter/static/js/2.a3621eaf.chunk.js",
+    "static/js/2.a3621eaf.chunk.js.map": "/react-materialui-router-typescript-starter/static/js/2.a3621eaf.chunk.js.map",
     "index.html": "/react-materialui-router-typescript-starter/index.html",
     "static/css/main.c31a235a.chunk.css.map": "/react-materialui-router-typescript-starter/static/css/main.c31a235a.chunk.css.map",
-    "static/js/2.f5d556f2.chunk.js.LICENSE.txt": "/react-materialui-router-typescript-starter/static/js/2.f5d556f2.chunk.js.LICENSE.txt"
+    "static/js/2.a3621eaf.chunk.js.LICENSE.txt": "/react-materialui-router-typescript-starter/static/js/2.a3621eaf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d60893c9.js",
-    "static/js/2.f5d556f2.chunk.js",
+    "static/js/2.a3621eaf.chunk.js",
     "static/css/main.c31a235a.chunk.css",
     "static/js/main.669e104f.chunk.js"
   ]
