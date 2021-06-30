@@ -27,7 +27,7 @@
     "eslint@typescript-eslint/explicit-module-boundary-types": "off",
     "object-curly-spacing": ["warn", "always"],
     "camelcase": "error",
-    "prettier/prettier": ["warn", { "endOfLine": "auto"}, { usePrettierrc: true }],
+    "prettier/prettier": ["warn", { "endOfLine": "auto"}, { "usePrettierrc": true }],
     "@typescript-eslint/no-empty-function": "off",
     "max-len": [
       "warn",
