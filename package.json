@@ -6,9 +6,7 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
-    "@material-ui/core": "next",
-    "@material-ui/icons": "next",
-    "@material-ui/styles": "next",
+    "@mui/material": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/react-router-dom": "latest",
