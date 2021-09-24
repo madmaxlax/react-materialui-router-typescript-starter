@@ -1,6 +1,6 @@
-import { AppBar, Button, Drawer, IconButton, Toolbar, Typography } from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
-import { makeStyles } from '@material-ui/styles';
+import { Menu } from '@mui/icons-material';
+import { AppBar, Button, Drawer, IconButton, Toolbar, Typography } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import clsx from 'clsx';
 import React, { useState } from 'react';
 import { CustomTheme } from '../../../theme';
@@ -35,7 +35,7 @@ const Topbar = (props: ClassNameProps) => {
             color="inherit"
             aria-label="menu"
           >
-            <MenuIcon />
+            <Menu />
           </IconButton>
           <Typography variant="h6" className={classes.title} component="div">
             App

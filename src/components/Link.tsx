@@ -1,5 +1,5 @@
-import { Container } from '@material-ui/core';
-import { default as MaterialUILink, LinkTypeMap } from '@material-ui/core/Link';
+import { Container } from '@mui/material';
+import { default as MaterialUILink, LinkTypeMap } from '@mui/material/Link';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
