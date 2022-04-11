@@ -1,4 +1,4 @@
-import { ElementType, PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 
 export interface ClassNameProps {
   className?: string | null | undefined;
@@ -6,9 +6,4 @@ export interface ClassNameProps {
 
 export interface ClassNameChildrenProps extends PropsWithChildren<unknown> {
   className?: string;
-}
-
-export interface LayoutProps {
-  children: PropsWithChildren<ElementType>;
-  layoutprops: any;
 }

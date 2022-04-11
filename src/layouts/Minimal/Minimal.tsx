@@ -1,9 +1,8 @@
 import { Grid, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
-import React from 'react';
+import React, { PropsWithChildren, ReactNode } from 'react';
 import { Footer } from '../../components';
 import { CustomTheme } from '../../theme';
-import { LayoutProps } from '../../utils/types';
 
 const useStyles = makeStyles((theme: CustomTheme) => ({
   minimalRoot: {},
@@ -16,9 +15,8 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
   content: {},
 }));
 
-const Minimal = (props: LayoutProps) => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const { children, layoutprops } = props;
+const Minimal = (props: PropsWithChildren<ReactNode>) => {
+  const { children } = props;
 
   const classes = useStyles();
 
